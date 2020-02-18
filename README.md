@@ -4,7 +4,7 @@
 
 ---
 
-## Basics of Baseball
+## 1. Basics of Baseball
 
 * 01 : Score a Baseball Game
 * 02 : Make a Box Score from a Score Sheet
@@ -13,3 +13,13 @@
 * 05 : Follow the Game Online
 * 06 : Add Baseball Searches to Firefox
 * 07 : Find Images of Stadiums
+
+
+## 2. Baseball Games from Past Years
+
+* 08 : Get and Install MySQL
+* 09 : Get an Access Database of Player and Team Statistics
+* 10 : Get a MySQL Database of Player and Team Statistics
+* 11 : Make Your Own Stats Book
+* 12 : Get Perl
+
