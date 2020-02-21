@@ -21,6 +21,7 @@
 * 09 : Get an Access Database of Player and Team Statistics
 * **10 : Get a MySQL Database of Player and Team Statistics** [[link](http://www.seanlahman.com/baseball-archive/statistics/)]; ([[link2](https://web.archive.org/web/20180412211025/http://www.baseball-databank.org/)])
 * 11 : Make Your Own Stats Book
-* 12 : Get Perl [REDO]
-* 13 : Learn Perl [REDO]
+* 12 : Get Perl
+* **13 : Learn Perl**
+* 14 : Get Historical Play-by-Play Data
 
