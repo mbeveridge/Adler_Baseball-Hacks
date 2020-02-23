@@ -4,6 +4,10 @@
 
 ---
 
+Publisher's [web page for this book](http://shop.oreilly.com/product/9780596009427.do), including [errata](https://www.oreilly.com/catalog/errata.csp?isbn=9780596009427)
+
+---
+
 ## 1. Basics of Baseball
 
 * **01 : Score a Baseball Game**
@@ -19,9 +23,9 @@
 
 * 08 : Get and Install MySQL
 * 09 : Get an Access Database of Player and Team Statistics
-* **10 : Get a MySQL Database of Player and Team Statistics** [[link](http://www.seanlahman.com/baseball-archive/statistics/)]; ([[link2](https://web.archive.org/web/20180412211025/http://www.baseball-databank.org/)])
+* **10 : Get a MySQL Database of Player and Team Statistics** [[baseballdatabank 2019 data used](http://www.seanlahman.com/baseball-archive/statistics/)]; [[Baseball-DataBank.org archived](https://web.archive.org/web/20180412211025/http://www.baseball-databank.org/)]
 * 11 : Make Your Own Stats Book
-* 12 : Get Perl
+* 12 : Get Perl [REVISIT]
 * **13 : Learn Perl**
 * 14 : Get Historical Play-by-Play Data
 
