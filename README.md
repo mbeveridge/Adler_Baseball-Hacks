@@ -31,4 +31,6 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 15 : Make Box Scores or Database Tables from Play-by-Play Data with Retrosheet Tools ...[[Chadwick tools](http://chadwick.sourceforge.net/doc/index.html)] from [[Chadwick BB Bureau](http://chadwick-bureau.com/)] [[@chadwickbureau](https://twitter.com/chadwickbureau)]
 * **16 : Use SQL to Explore Game Data**
 * 17 : Use Microsoft Access to Run SQL Queries
+* 18 : Get a GUI for MySQL
+* 19 : Move Data from a Database to Excel
 
