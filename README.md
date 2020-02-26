@@ -35,5 +35,22 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 19 : Move Data from a Database to Excel ...[SQL]
 * 20 : Load Baseball Data into MySQL ...[[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
 * 21 : Load Retrosheet Game Logs ...[[Retrosheet game logs](https://www.retrosheet.org/gamelogs/index.html)] [[`game_log_header.csv`](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [Perl]
-* **22 : Make a Historical Play-by-Play Database** ...[[Perl scripts](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
+* **22 : Make a Historical Play-by-Play Database** ...[[Perl scripts](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [REVISIT]
+* 23 : Use Regular Expressions to Identify Events [REVISIT]
 
+
+## 3. Stats from the Current Season
+
+* 24 : Use Microsoft Excel Web Queries to Get Stats
+* 25 : 
+* 26 : 
+* 27 : 
+* 28 : 
+* 29 : 
+
+
+## 4. Visualize Baseball Statistics
+
+* 30 : 
+* 31 : Get R and R Packages
+* 32 : Analyze Baseball with R
