@@ -23,7 +23,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 
 * 08 : Get and Install MySQL
 * 09 : Get an Access Database of Player and Team Statistics
-* **10 : Get a MySQL Database of Player and Team Statistics** [P.49-54] ...[[baseballdatabank 2019 data used](http://www.seanlahman.com/baseball-archive/statistics/)]; [[Baseball-DataBank.org archived](https://web.archive.org/web/20180412211025/http://www.baseball-databank.org/)]
+* **10 : Get a MySQL Database of Player and Team Statistics** [P.49-54] ...[[baseballdatabank 2019 data used](http://www.seanlahman.com/baseball-archive/statistics/)]; [[Baseball-DataBank.org archived](https://web.archive.org/web/20180412211025/http://www.baseball-databank.org/)] [DEFINE KEYS]
 * 11 : Make Your Own Stats Book
 * 12 : Get Perl [REVISIT]
 * **13 : Learn Perl** [P.67-74] ...[[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
@@ -54,4 +54,8 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 30 : 
 * 31 : Get R and R Packages
 * 32 : Analyze Baseball with R
-* **33 : Access Databases Directly from Excel or R** [P.170-180] ...[[ODBC drivers for 'Excel for Mac 2011'](https://support.office.com/en-us/article/odbc-drivers-that-are-compatible-with-excel-for-mac-9fa6bc7f-d19e-4f7f-9be4-92e85c77d712#ID0EAABAAA=Excel_for_Mac_2011)] : [[$100](https://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-odbc-postgres-personal-2019-01%23this&type=buy&mode=u) / [$40](http://www.actualtech.com/product_opensourcedatabases.php) / [$?](https://www.simba.com/drivers/postgresql-odbc-jdbc/)] [[Office 2011 is 32-bit](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_other-mso_mac-mso_mac2011/microsoft-office-2011-mac-64-bit-upgrade/f3d33d70-b717-427d-afba-b600bf28e9a2)]
+* **33 : Access Databases Directly from Excel or R** [P.170-180] ...[[ODBC drivers for 'Excel for Mac 2011'](https://support.office.com/en-us/article/odbc-drivers-that-are-compatible-with-excel-for-mac-9fa6bc7f-d19e-4f7f-9be4-92e85c77d712#ID0EAABAAA=Excel_for_Mac_2011)] : [[$100](https://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-odbc-postgres-personal-2019-01%23this&type=buy&mode=u) / [$40](http://www.actualtech.com/product_opensourcedatabases.php) / [$?](https://www.simba.com/drivers/postgresql-odbc-jdbc/)] [[Office 2011 is 32-bit](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_other-mso_mac-mso_mac2011/microsoft-office-2011-mac-64-bit-upgrade/f3d33d70-b717-427d-afba-b600bf28e9a2)] [REVISIT]
+* **34 : Load Text Files into R**
+
+
+10, 14, 16, 22, 23, 33, 34
