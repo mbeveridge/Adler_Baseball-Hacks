@@ -46,7 +46,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 26 : 
 * 27 : 
 * 28 : 
-* 29 : 
+* **29 : Find Data on Hit Locations** [P.151-157] ...[REVISIT]
 
 
 ## 4. Visualize Baseball Statistics
@@ -55,7 +55,10 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 31 : Get R and R Packages
 * 32 : Analyze Baseball with R
 * **33 : Access Databases Directly from Excel or R** [P.170-180] ...[[ODBC drivers for 'Excel for Mac 2011'](https://support.office.com/en-us/article/odbc-drivers-that-are-compatible-with-excel-for-mac-9fa6bc7f-d19e-4f7f-9be4-92e85c77d712#ID0EAABAAA=Excel_for_Mac_2011)] : [[$100](https://uda.openlinksw.com/offers/order?uri=http%3A%2F%2Fdata.openlinksw.com%2Foplweb%2Foffer%2FOffer-UDALT-WKS-anyos-odbc-postgres-personal-2019-01%23this&type=buy&mode=u) / [$40](http://www.actualtech.com/product_opensourcedatabases.php) / [$?](https://www.simba.com/drivers/postgresql-odbc-jdbc/)] [[Office 2011 is 32-bit](https://answers.microsoft.com/en-us/msoffice/forum/msoffice_other-mso_mac-mso_mac2011/microsoft-office-2011-mac-64-bit-upgrade/f3d33d70-b717-427d-afba-b600bf28e9a2)] [REVISIT]
-* **34 : Load Text Files into R**
+* **34 : Load Text Files into R** [P.180-182] ...[[R script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%204)]
+* **35 : Compare Teams and Players with Lattices** [P.182-185] ...[[R script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%204)]
+* 36 :
+* **37 : Plot Spray Charts** [P.188-193]
 
 
-10, 14, 16, 22, 23, 33, 34
+10, 14, 16, 22, 23, 33, 34, 35
