@@ -6,6 +6,8 @@
 
 Publisher's [web page for this book](http://shop.oreilly.com/product/9780596009427.do), including [errata](https://www.oreilly.com/catalog/errata.csp?isbn=9780596009427) and [example code](https://resources.oreilly.com/examples/9780596009427/)
 
+[`Lahman`](https://rdrr.io/cran/Lahman/) package in R
+
 ---
 
 ## 1. Basics of Baseball
@@ -35,7 +37,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 19 : Move Data from a Database to Excel ...[SQL]
 * 20 : Load Baseball Data into MySQL ...[[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
 * 21 : Load Retrosheet Game Logs ...[[Retrosheet game logs](https://www.retrosheet.org/gamelogs/index.html)] [[`game_log_header.csv`](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [Perl]
-* **22 : Make a Historical Play-by-Play Database** [P.107-110] ...[[Perl scripts](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [REVISIT]
+* **22 : Make a Historical Play-by-Play Database** [P.107-110] ...[[Perl scripts](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [[Chadwick tools (cf. #15)](http://chadwick.sourceforge.net/doc/index.html)] [[`all_hdr.txt`](https://resources.oreilly.com/examples/9780596009427/)] [REVISIT]
 * 23 : Use Regular Expressions to Identify Events [REVISIT]
 
 
@@ -45,8 +47,8 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 25 : 
 * 26 : 
 * 27 : 
-* 28 : 
-* **29 : Find Data on Hit Locations** [P.151-157] ...[REVISIT]
+* 28 : Get Recent Play-by-Play Data [*COULDN'T see MLB.com [Gameday](http://gd2.mlb.com/components/game/mlb/) xml files; my Perl install not working*]
+* **29 : Find Data on Hit Locations** [P.151-157] ...[*needs data from #28*]
 
 
 ## 4. Visualize Baseball Statistics
@@ -58,7 +60,12 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * **34 : Load Text Files into R** [P.180-182] ...[[R script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%204)]
 * **35 : Compare Teams and Players with Lattices** [P.182-185] ...[[R script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%204)]
 * 36 :
-* **37 : Plot Spray Charts** [P.188-193]
+* **37 : Plot Spray Charts** [P.188-193] ...[*needs coord data from #29*]
 
+---
 
-10, 14, 16, 22, 23, 33, 34, 35
+[explore dB] 16(P.90);
+
+[Retrosheet pbp; Chadwick(BEVENT)] 14(P.76) +15(P.83) +22(P.107);
+
+[ODBC; RODBC/RMySQL; DBI] 33 +35(P.184)
