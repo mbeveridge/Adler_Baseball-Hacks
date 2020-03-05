@@ -6,7 +6,19 @@
 
 Publisher's [web page for this book](http://shop.oreilly.com/product/9780596009427.do), including [errata](https://www.oreilly.com/catalog/errata.csp?isbn=9780596009427) and [example code](https://resources.oreilly.com/examples/9780596009427/)
 
-[`Lahman`](https://rdrr.io/cran/Lahman/) package in R
+[[Lahman's Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/)] site for links to 'his' 'baseballdatabank' ...I used "*2019 – comma-delimited version*"
+
+[`Lahman`](https://rdrr.io/cran/Lahman/) package in R ...but currently only the (old) 2018 version in Anaconda
+
+[RetroSheet](https://www.retrosheet.org/game.htm) play-by-play data files (event files) and a "[how to use](https://www.retrosheet.org/datause.txt)" list of fields etc
+
+[Chadwick tools](http://chadwick.sourceforge.net/doc/index.html) website and [@chadwickbureau](https://twitter.com/chadwickbureau) from which I found [v0.7.2](https://github.com/chadwickbureau/chadwick/releases/tag/v0.7.2) of the tools
+
+`cwevent -y 1975 -f 0,10,34 *.EV* > events.csv`
+`cwgame 1975 -f 0,1 *.EV* > days.csv`
+...command line entries from [CharlesRedmond course](https://www.udemy.com/course/baseball2/learn/lecture/3150524), to create 2 data tables with the Chadwick tools
+
+`bdat <- inner_join(events,days,by=c("gameid"))` ...R code from [CharlesRedmond course](https://www.udemy.com/course/baseball2/learn/lecture/3151136) to join the 2 tables
 
 ---
 
@@ -30,7 +42,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 12 : Get Perl [REVISIT]
 * **13 : Learn Perl** [P.67-74] ...[[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
 * **14 : Get Historical Play-by-Play Data** [P.74-78] ...[[RetroSheet event files](https://www.retrosheet.org/game.htm)] [[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
-* 15 : Make Box Scores or Database Tables from Play-by-Play Data with Retrosheet Tools ...[[Chadwick tools](http://chadwick.sourceforge.net/doc/index.html)] from [[Chadwick BB Bureau](http://chadwick-bureau.com/)] [[@chadwickbureau](https://twitter.com/chadwickbureau)]
+* **15 : Make Box Scores or Database Tables from Play-by-Play Data with Retrosheet Tools** ...[[Chadwick tools](http://chadwick.sourceforge.net/doc/index.html)] from [[Chadwick BB Bureau](http://chadwick-bureau.com/)] [[@chadwickbureau](https://twitter.com/chadwickbureau)]
 * **16 : Use SQL to Explore Game Data** [P.84-91]
 * 17 : Use Microsoft Access to Run SQL Queries
 * 18 : Get a GUI for MySQL
@@ -66,6 +78,6 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 
 [explore dB] 16(P.90);
 
-[Retrosheet pbp; Chadwick(BEVENT)] 14(P.76) +15(P.83) +22(P.107);
+[Retrosheet pbp; Chadwick(BEVENT)] 14(P.76) +15(P.81-82) +22(P.107);
 
 [ODBC; RODBC/RMySQL; DBI] 33 +35(P.184)
