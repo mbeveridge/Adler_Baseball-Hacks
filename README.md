@@ -60,7 +60,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 20 : Load Baseball Data into MySQL ...[[Perl script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)]
 * 21 : Load Retrosheet Game Logs ...[[Retrosheet game logs](https://www.retrosheet.org/gamelogs/index.html)] [[`game_log_header.csv`](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [Perl]
 * **22 : Make a Historical Play-by-Play Database** [P.107-110] ...[[Perl scripts](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%202)] [[Chadwick tools (cf. #15)](http://chadwick.sourceforge.net/doc/index.html)] [[`all_hdr.txt`](https://resources.oreilly.com/examples/9780596009427/)] [*DIDN'T use Perl script - my Perl install not working*]
-* 23 : Use Regular Expressions to Identify Events [REVISIT with pbp database]
+* 23 : Use Regular Expressions to Identify Events [REVISIT with 'pbp' database]
 
 
 ## 3. Stats from the Current Season
@@ -83,6 +83,8 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * **35 : Compare Teams and Players with Lattices** [P.182-185] ...[[R script](https://resources.oreilly.com/examples/9780596009427/tree/master/baseball%20hacks%20code/chapter%204)]
 * 36 :
 * **37 : Plot Spray Charts** [P.188-193] ...[*needs coord data from #29*]
+* 38 : Chart Team Stats in Real Time [P.193-199]
+* 39 : Slice and Dice Teams with Cubes [P.200-209] [MAKE NOTES on Excel and OpenOffice?]
 
 ---
 
