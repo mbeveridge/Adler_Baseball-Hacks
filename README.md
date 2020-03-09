@@ -86,6 +86,13 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 38 : Chart Team Stats in Real Time [P.193-199]
 * 39 : Slice and Dice Teams with Cubes [P.200-209] [MAKE NOTES on Excel and OpenOffice?]
 
+
+## 5. Formulas
+
+* 40 : Measure Batting with Batting Average
+
+
+
 ---
 
 [explore dB] 16(P.90);
