@@ -6,7 +6,9 @@
 
 Publisher's [web page for this book](http://shop.oreilly.com/product/9780596009427.do), including [errata](https://www.oreilly.com/catalog/errata.csp?isbn=9780596009427) and [example code](https://resources.oreilly.com/examples/9780596009427/)
 
-[[Lahman's Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/)] site for links to 'his' 'baseballdatabank' ...I used "*2019 – comma-delimited version*"
+[[Lahman's Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/)] site for links to 'his' 'baseballdatabank' (csv and MySQL) ...I used "*2019 – comma-delimited version*"
+
+"Lahman's Baseball Database" implemented **in PostgreSQL** - [michaeljaltamirano's GitHub repo](https://github.com/michaeljaltamirano/lahman-baseball-database-2016-postgresql)
 
 [`Lahman`](https://rdrr.io/cran/Lahman/) package in R ...but currently only the (old) 2018 version in Anaconda
 
@@ -90,6 +92,9 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 ## 5. Formulas
 
 * 40 : Measure Batting with Batting Average
+* 41 : Measure Batting with On-Base Percentage ...P.41 says "*There are no caveats; it’s just the percentage of time the player reaches base*". However [Wikipedia](https://en.wikipedia.org/wiki/On-base_percentage) says NOT if "*due to fielding error, fielder's choice, dropped/uncaught third strike, fielder's obstruction, or catcher's interference*"
+* 42 : Measure Batting with SLG
+* 43 : Measure Batting with OPS
 
 
 
