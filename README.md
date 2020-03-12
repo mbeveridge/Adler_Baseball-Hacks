@@ -34,9 +34,9 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 
 ---
 
-## 1. Basics of Baseball
+## 1. Basics of Baseball [P.1-38]
 
-* **01 : Score a Baseball Game** [P.4-12]
+* **01 : Score a Baseball Game** [P.1-12]
 * **02 : Make a Box Score from a Score Sheet** [P.12-19]
 * 03 : Keep Score, Project Scoresheet–Style
 * **04 : Follow Pitches During a Game** [P.26-30]
@@ -45,7 +45,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 07 : Find Images of Stadiums
 
 
-## 2. Baseball Games from Past Years
+## 2. Baseball Games from Past Years [P.39-113]
 
 * 08 : Get and Install MySQL
 * 09 : Get an Access Database of Player and Team Statistics
@@ -65,7 +65,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 23 : Use Regular Expressions to Identify Events [REVISIT with 'pbp' database]
 
 
-## 3. Stats from the Current Season
+## 3. Stats from the Current Season [P.114-157]
 
 * 24 : Use Microsoft Excel Web Queries to Get Stats
 * 25 : 
@@ -75,7 +75,7 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * **29 : Find Data on Hit Locations** [P.151-157] ...[*needs data from #28*]
 
 
-## 4. Visualize Baseball Statistics
+## 4. Visualize Baseball Statistics [P.158-209]
 
 * 30 : 
 * 31 : Get R and R Packages
@@ -89,12 +89,19 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 39 : Slice and Dice Teams with Cubes [P.200-209] [MAKE NOTES on Excel and OpenOffice?]
 
 
-## 5. Formulas
+## 5. Formulas [P.210-309]
 
-* 40 : Measure Batting with Batting Average
-* 41 : Measure Batting with On-Base Percentage ...P.41 says "*There are no caveats; it’s just the percentage of time the player reaches base*". However [Wikipedia](https://en.wikipedia.org/wiki/On-base_percentage) says NOT if "*due to fielding error, fielder's choice, dropped/uncaught third strike, fielder's obstruction, or catcher's interference*"
-* 42 : Measure Batting with SLG
-* 43 : Measure Batting with OPS
+* 40 : Measure Batting with Batting Average ...[AVG]
+* 41 : Measure Batting with On-Base Percentage ...[OBP]. P.41 says "*There are no caveats; it’s just the percentage of time the player reaches base*". However [Wikipedia](https://en.wikipedia.org/wiki/On-base_percentage) says NOT if "*due to fielding error, fielder's choice, dropped/uncaught third strike, fielder's obstruction, or catcher's interference*"
+* 42 : Measure Batting with SLG ...[Slugging average]
+* 43 : Measure Batting with OPS ...[On base plus slugging average]
+* 44 : Measure Power with ISO ...[Isolated power]
+* 45 : Measure Batting with Runs Created ...[RC]
+* 46 : Measure Batting with Linear Weights ...[BR]
+* 47 : Measure Pitching with ERA ...[Earned run average]
+* 48 : Measure Pitching with WHIP ...[Walks plus hits per inning pitched]
+* 49 : Measure Pitching with Linear Weights ...[PR]
+* 50 : Measure Defense with Defensive Efficiency ...[DER]
 
 
 
