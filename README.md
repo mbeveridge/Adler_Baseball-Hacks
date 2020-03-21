@@ -4,6 +4,8 @@
 
 ---
 
+### MyLinks for future use
+
 Publisher's [web page for this book](http://shop.oreilly.com/product/9780596009427.do), including [errata](https://www.oreilly.com/catalog/errata.csp?isbn=9780596009427) and [example code](https://resources.oreilly.com/examples/9780596009427/)
 
 [[Lahman's Baseball Database](http://www.seanlahman.com/baseball-archive/statistics/)] site for links to 'his' 'baseballdatabank' (csv and MySQL) ...I used "*2019 – comma-delimited version*"
@@ -24,6 +26,8 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 
 ---
 
+### MyComments for future workings
+
 [Retrosheet](https://www.retrosheet.org/game.htm) 'Regular Season Event Files' for 2019 '2019eve.zip' contained '2019eve' directory with 63 files. 30 were play-by-play details per home team (15 EVA and 15 EVN) and 30 were team rosters (and the other 3 were ALS2019.ROS; NLS2019.ROS; TEAM2019)
 
 * `cwevent -y 2010 -f 0-96 *.EV* > events2010.csv` ...example entry used by me (cf. hack#22 P.108). [*What does the `2010` in `-y 2010` do? I accidentally ran this in directory of all 2010-2019 files and it processed all of them into output file (until appearing to run out of space mid-2018 at ~1.6M rows and 684MB), but no mention of `2010` in the output*] [2019-only output was 82MB]
@@ -31,6 +35,20 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * `cwgame -y 2019 -f 0-83 *.EV* > games2019.csv` ...example entry used by me. [*[Retrosheet](https://www.retrosheet.org/datause.txt) said there is a field84 (scorer name), but the 'cwgame' errormsg said max is field83 and [Chadwick](http://chadwick.sourceforge.net/doc/cwgame.html) agreed*] [1.2MB]
 
 * `cat *.ROS > rosters2019.csv` ...example entry used by me (simply to merge all 30 roster files in the directory, having temporarily removed ALS2019.ROS and NLS2019.ROS) [*NOTE: hack#22 P.109 says "after 2002, these files included a team and position"*] [53kB]
+
+---
+
+### MyComments2 for future workings (trying to get it to work)
+
+'events2019.csv' file of processed Retrosheet data. Remove "" (but it creates col header) using RStudio :
+`events2019 <- read.csv("events2019.csv", header=FALSE)`
+`write.csv(events2019, file="events2019_after-r.csv", quote=FALSE, row.names=FALSE)`
+
+Copy all files to . [/tmp] directory (777 access permissions) using Bash :
+`MBP-Mark:playbyplay markbeveridge$ rsync -av ~/Dropbox/repos/Adler_Baseball-Hacks/playbyplay_Retrosheet-data/2019eve/* .`
+
+Import into events table in dB=pbp using psql :
+`pbp=# COPY events FROM '/tmp/playbyplay/events2019_after-r.csv' DELIMITER ',' CSV HEADER;`
 
 ---
 
@@ -102,6 +120,9 @@ Publisher's [web page for this book](http://shop.oreilly.com/product/97805960094
 * 48 : Measure Pitching with WHIP ...[Walks plus hits per inning pitched]
 * 49 : Measure Pitching with Linear Weights ...[PR]
 * 50 : Measure Defense with Defensive Efficiency ...[DER]
+* 51 : Measure Pitching with DIPS ...[defensive independent pitching stats]
+* 52 : Measure Base Running Through EqBR ...[Equivalent Batter Runs] [*or extra base running percentage (XBRpct)*]
+* 53 : Measure Fielding with Fielding Percentage ...[FCPT]
 
 
 
