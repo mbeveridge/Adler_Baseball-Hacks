@@ -125,6 +125,10 @@ Import into events table in dB=pbp using psql :
 * 53 : Measure Fielding with Fielding Percentage ...[FCPT]
 
 
+## 6. Sabermetric Thinking [P.310-409]
+
+*
+
 
 ---
 
