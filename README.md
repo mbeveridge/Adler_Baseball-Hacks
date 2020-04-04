@@ -127,7 +127,7 @@ Import into events table in dB=pbp using psql :
 
 ## 6. Sabermetric Thinking [P.310-409]
 
-*
+* 60 : Calculate Expected Runs
 
 
 ---
