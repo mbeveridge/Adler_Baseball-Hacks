@@ -129,6 +129,7 @@ Import into events table in dB=pbp using psql :
 
 * 60 : Calculate Expected Runs
 * 61 : Calculate an Expected Hits Matrix
+* 62 : Look for Evidence of Platoon Effects
 
 
 ---
